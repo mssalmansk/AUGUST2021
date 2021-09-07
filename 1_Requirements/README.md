@@ -28,6 +28,8 @@ C break and continue
 
 ##  Defining our system:
 
+![image](https://user-images.githubusercontent.com/47742185/132338503-ac5566c9-2593-4455-8089-13e96fc07cfb.png)
+
 
 ## SWOT Analysis
 ### strenth:
