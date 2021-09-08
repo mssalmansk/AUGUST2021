@@ -11,13 +11,7 @@
 #include <stdio.h>  
 #include <conio.h>  
 #include <math.h>  
-#include <stdlib.h>    
-int addition();  
-int subtract();  
-int multiply();  
-int divide();
-int mod();
-void exit();  
+#include <stdlib.h>      
  int subtract()  
 {  
     int n1, n2, result;  
