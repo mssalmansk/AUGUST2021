@@ -5,7 +5,8 @@
 int addition();  
 int subtract();  
 int multiply();  
-int divide();     
+int divide();
+int mod();
 void exit();
 int divide()  
 {  
