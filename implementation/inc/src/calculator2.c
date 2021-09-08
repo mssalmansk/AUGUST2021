@@ -15,9 +15,7 @@
 int addition();  
 int subtract();  
 int multiply();  
-int divide();   
-int sqrt1();
-int sq();  
+int divide();     
 void exit();  
   
 int main()  
@@ -26,7 +24,7 @@ int main()
     do  
     {    
         printf (" Select an  all operation to perform the calculation in C Calculator: ");  
-        printf (" \n 1 Addition  \t \t 2 Subtraction \n 3 Multiplication \t 4 Division \n 5 Square \t \t 6 Square Root \n 7 Exit \n \n Please, Make a choice ");      
+        printf (" \n 1 Addition  \t \t 2 Subtraction \n 3 Multiplication \t 4 Division \n  5 Exit \n \n Please, Make a choice ");      
           
         scanf ("%d", &oprt);  
         
@@ -49,14 +47,6 @@ int main()
             break; 
               
         case 5:  
-            sq();   
-            break; 
-              
-        case 6:  
-            sqrt1(); 
-            break; 
-              
-        case 7:  
             exit(0);   
             break;
               
@@ -127,24 +117,4 @@ int divide()
     printf (" \n The division of %d / %d is: %d", n1, n2, result);  
 }  
      
-int sqrt1()  
-{  
-    float result;  
-    int n1;  
-    printf (" Enter a number to get the Square Root: ");  
-    scanf ("  %d", &n1);  
-  
-    result = sqrt(n1);   
-    printf (" \n The Square Root of %d is: %f", n1, result);  
-}  
-    
-int sq()  
-{  
-    int n1, result;  
-    printf (" Enter a number to get the Square: ");  
-    scanf ("  %d", &n1);  
-      
-    result = n1 * n1;    
-    printf (" \n The Square of %d is: %d", n1, result);  
-}  
 
