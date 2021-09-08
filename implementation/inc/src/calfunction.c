@@ -11,9 +11,7 @@
 int addition();  
 int subtract();  
 int multiply();  
-int divide();   
-int sqrt1();
-int sq();  
+int divide();     
 void exit();  
    
 int main()  
@@ -22,7 +20,7 @@ int main()
     do  
     {    
         printf (" Select an  all operation to perform the calculation in C Calculator: ");  
-        printf (" \n 1 Addition  \t \t 2 Subtraction \n 3 Multiplication \t 4 Division \n 5 Square \t \t 6 Square Root \n 7 Exit \n \n Please, Make a choice ");      
+        printf (" \n 1 Addition  \t \t 2 Subtraction \n 3 Multiplication \t 4 Division  \n 5 Exit \n \n Please, Make a choice ");      
           
         scanf ("%d", &oprt);  
         
@@ -42,17 +40,9 @@ int main()
               
         case 4:  
             divide();  
-            break; 
+            break;
               
         case 5:  
-            sq();   
-            break; 
-              
-        case 6:  
-            sqrt1(); 
-            break; 
-              
-        case 7:  
             exit(0);   
             break;
               
