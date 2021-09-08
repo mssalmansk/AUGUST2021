@@ -10,12 +10,14 @@ src/calfunction1.c\
 src/calfunction2.c\
 src/calfunction3.c\
 src/calfunction4.c\
+src/calfunction5.c\
 
 # All test source files
 TEST_SRC = src/calfunction1.c\
 src/calfunction2.c\
 src/calfunction3.c\
 src/calfunction4.c\
+src/calfunction5.c\
 test/test.c\
 unity/unity.c\
 
