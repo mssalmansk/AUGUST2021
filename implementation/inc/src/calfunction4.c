@@ -2,12 +2,6 @@
 #include <conio.h>  
 #include <math.h>  
 #include <stdlib.h>    
-int addition();  
-int subtract();  
-int multiply();  
-int divide();
-int mod();
-void exit();
 int divide()  
 {  
     int n1, n2, result;  
