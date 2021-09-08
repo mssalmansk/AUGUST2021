@@ -8,10 +8,14 @@ BUILD = build
 SRC = project_main.c\
 src/calfunction1.c\
 src/calfunction2.c\
+src/calfunction3.c\
+src/calfunction4.c\
 
 # All test source files
 TEST_SRC = src/calfunction1.c\
 src/calfunction2.c\
+src/calfunction3.c\
+src/calfunction4.c\
 test/test.c\
 unity/unity.c\
 
