@@ -120,7 +120,7 @@ int divide()
     result = n1 / n2;    
     printf (" \n The division of %d / %d is: %d", n1, n2, result);  
 }  
-int mode()  
+int mod()  
 {  
     int n1, n2, result;  
     printf (" The first number is: ");  
@@ -128,7 +128,7 @@ int mode()
     printf (" The second number is: ");  
     scanf ("  %d", &n2);  
     result = n1 / n2;    
-    printf (" The mode of %d * %d is: %d", n1, n2, result);  
+    printf (" The mod of %d * %d is: %d", n1, n2, result);  
 }  
      
 
