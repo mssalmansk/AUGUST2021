@@ -15,7 +15,8 @@
 int addition();  
 int subtract();  
 int multiply();  
-int divide();     
+int divide();
+int mod();
 void exit();  
   
 int main()  
@@ -24,7 +25,7 @@ int main()
     do  
     {    
         printf (" Select an  all operation to perform the calculation in C Calculator: ");  
-        printf (" \n 1 Addition  \t \t 2 Subtraction \n 3 Multiplication \t 4 Division \n  5 Exit \n \n Please, Make a choice ");      
+        printf (" \n 1 Addition  \t \t 2 Subtraction \n 3 Multiplication \t 4 Division \n  5 mod \n 6 exit \n \n Please, Make a choice ");      
           
         scanf ("%d", &oprt);  
         
@@ -45,8 +46,11 @@ int main()
         case 4:  
             divide();  
             break; 
+      case 5:
+        mode();
+        break;
               
-        case 5:  
+        case 6:  
             exit(0);   
             break;
               
@@ -115,6 +119,16 @@ int divide()
     }  
     result = n1 / n2;    
     printf (" \n The division of %d / %d is: %d", n1, n2, result);  
+}  
+int mode()  
+{  
+    int n1, n2, result;  
+    printf (" The first number is: ");  
+    scanf ("  %d", &n1);  
+    printf (" The second number is: ");  
+    scanf ("  %d", &n2);  
+    result = n1 / n2;    
+    printf (" The mode of %d * %d is: %d", n1, n2, result);  
 }  
      
 
