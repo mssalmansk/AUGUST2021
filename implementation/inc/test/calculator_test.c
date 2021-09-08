@@ -46,6 +46,7 @@ void test_addition(void) {
    TEST_ASSERT_EQUAL(7,subtraction(5,6));
    TEST_ASSERT_EQUAL(7,divition(5,6));
    TEST_ASSERT_EQUAL(7,multiplication(5,10));
+  TEST_ASSERT_EQUAL(7,mod(10,5));
  /* TEST_ASSERT_EQUAL(7,multplication(10,3));*/
   
 }
